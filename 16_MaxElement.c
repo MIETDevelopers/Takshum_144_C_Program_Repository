@@ -2,10 +2,11 @@
 //Creation Date= 20-03-2021
 #include<stdio.h>//pre processor directive to include input output function header file
 int main(){//main function body starts
-	int i;
-	float arr[5];
+	int i;//variable declaration
+	float arr[5];//array declaration
 
-	printf("Please enter five numbers:\n ");
+	printf("Please enter five numbers:\n ");//printf function calling
+	//declaration of a for loop to find the max element and index
 
 	for (i = 0; i < 5; ++i)
 	{
