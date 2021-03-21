@@ -1,3 +1,6 @@
+//Author Name= Takshum Bhau
+//Creation Date= 19-03-2021
+//Purpose= Area and Perimeter of Circle,Square and Rectangle
 #include<stdio.h>//preprocessor directive to include standard input output function header file
 
 int main(){//main function body starts
