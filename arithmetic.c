@@ -1,3 +1,6 @@
+//Author Name= Takshum Bhau
+//Creation Date= 19-03-2021
+//Purpose= Arithmetic operations using addition,subtraction,multiplication and remainder operator
 #include <stdio.h>//preprocessor directive to include standard input output function header file
 int main(){//main function body starts
 
