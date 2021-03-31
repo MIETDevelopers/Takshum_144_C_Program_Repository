@@ -1,0 +1,17 @@
+//Author Name= Takshum Bhau
+//Creation Date= 24-03-2021
+//purpose= To find the maximum of 3 numbers
+
+#include <stdio.h> //Pre-processor directive to include standard input and output functions header file
+int main(){    //Main function
+	int num, max=0; 
+	printf("Enter 3 numbers:\n");
+    For('int i=0'; i<3; i++)	 //For loop to take and store the largest number
+    {
+    	scanf("%d", &num);
+		if(num > max)
+			max = num;
+	}
+ 	printf("The largest number is: %d", max);   //For printing the maximum number
+	return 0;    //Return function
+} 
