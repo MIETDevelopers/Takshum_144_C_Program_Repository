@@ -2,7 +2,7 @@
 //Creation Date=18-03-2021
 #include <stdio.h>//preprocessor directive to include standard input output function header file
 int main() {//main function body starts
-    char c;
+    char c;// variable declaration
     int lowercase_vowel, uppercase_vowel;
     printf("Enter an alphabet: ");
     scanf("%c", &c);
