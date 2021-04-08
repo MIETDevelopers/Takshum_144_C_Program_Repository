@@ -4,10 +4,10 @@
 //Area of Square: side*side: side
 //Area of Rectangle: Length * Breadth: Length, Breadth
 //Area of Circle: (22/7)*r*r: radius 
-#include <stdio.h>
-#include <math.h>
-int main(){
-	char purpose;
+#include <stdio.h>// pre processor directive to include standard input output function header file
+#include <math.h>// header file for mathematics operations
+int main(){ // main function body starts
+	char purpose;// variable declaration
 	printf("Enter the mode of operation.\n 1.Area of Circle.\n 2.Area of Square.\n 3.Area of Rectangle.\n");
 	scanf("%c", &purpose); //It will scan the operater entered by user.
 	float value1, value2;
@@ -28,5 +28,5 @@ int main(){
 		default:
             printf("Error eccoured, Please enter the values correctly!");	
 	}
-	return 0; 
-}
+	return 0; // return statement
+}// main function body ends
