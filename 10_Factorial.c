@@ -1,6 +1,6 @@
 //Author Name= Takshum Bhau
 //Creation Date= 18-03-2021
-
+//Purpose= Factorial using for loop
 #include<stdio.h>//Preprocessive directive to include standard library input output header file
 int main(){		//main function bodystarts
 	int num, fact=1, i;		//declaring variables named "num", "fact", and "i"
