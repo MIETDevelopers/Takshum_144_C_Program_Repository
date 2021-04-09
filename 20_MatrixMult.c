@@ -1,5 +1,6 @@
 //Author Name= Takshum Bhau
 //Creation Date= 21-03-2021
+//Purpose= To Perform Matrix Multiplication
 #include <stdio.h>//preprocessor directive to include standard input output function header file
  
 int main(){//main function body starts
